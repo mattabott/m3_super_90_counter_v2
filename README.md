@@ -20,7 +20,7 @@ This project is a custom counter designed for the M3 Super 90 softair shotgun by
 - Endstop Switch: Detects when a shot is fired.
 - Reset Button: Resets the counter after loading a new shell.
 - Battery pack for 2 AA battery.
-- 3D Printed Case: Custom case to house all components securely on the shotgun.
+- 3D Printed Case: Custom case to house all components securely on the shotgun (find .STL file [here](https://www.thingiverse.com/thing:6741174).
 
 # Wiring and Connections
 Below are the detailed wiring connections between the components and the Raspberry Pi Pico:
@@ -51,7 +51,7 @@ Below are the detailed wiring connections between the components and the Raspber
 
 # Installation
 
-1. 3D Print the Case: Use the provided STL files from [here](https://www.thingiverse.com/thing:6741174)
+1. 3D Print the Case: Use the provided STL files from [here](https://www.thingiverse.com/thing:6741174).
 2. Wiring: Connect the components to the Raspberry Pi Pico as per the wiring instructions above.
 3. Load the Code: Upload the provided Python code onto your Raspberry Pi Pico using Thonny (raccomended).
 4. Assembly: Assemble the components into the 3D printed case.
