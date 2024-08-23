@@ -13,38 +13,40 @@ This project is a custom counter designed for the M3 Super 90 softair shotgun by
 - Compact Design: The counter is housed in a custom 3D-printed case designed to be mounted on the shotgun.
 
 # Components
--Raspberry Pi Pico: The microcontroller that runs the code and handles the input/output.
--OLED Display (128x64 pixels): Used to display the shot and shell count.
--Endstop Switch: Detects when a shot is fired.
--Reset Button: Resets the counter after loading a new shell.
--3D Printed Case: Custom case to house all components securely on the shotgun.
+- Raspberry Pi Pico: The microcontroller that runs the code and handles the input/output.
+- OLED Display (128x64 pixels): Used to display the shot and shell count.
+- Endstop Switch: Detects when a shot is fired.
+- Reset Button: Resets the counter after loading a new shell.
+- 3D Printed Case: Custom case to house all components securely on the shotgun.
 
 # Wiring and Connections
 Below are the detailed wiring connections between the components and the Raspberry Pi Pico:
 
--OLED Display:
+- OLED Display:
  
-  -SDA (Data Line): Connect to GP0 (Pin 1) on the Raspberry Pi Pico.
-  -SCL (Clock Line): Connect to GP1 (Pin 2) on the Raspberry Pi Pico.
-  -VCC: Connect to a 3.3V pin on the Raspberry Pi Pico.
-  -GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
+  - SDA (Data Line): Connect to GP0 (Pin 1) on the Raspberry Pi Pico.
+  - SCL (Clock Line): Connect to GP1 (Pin 2) on the Raspberry Pi Pico.
+  - VCC: Connect to a 3.3V pin on the Raspberry Pi Pico.
+  - GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
 
--Endstop Switch:
+- Endstop Switch:
 
-  -Signal Pin: Connect to GP26 (Pin 31) on the Raspberry Pi Pico.
-  -GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
+  - Signal Pin: Connect to GP26 (Pin 31) on the Raspberry Pi Pico.
+  - GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
 
--Reset Button:
+- Reset Button:
 
-  -Signal Pin: Connect to GP22 (Pin 29) on the Raspberry Pi Pico.
-  -GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
+  - Signal Pin: Connect to GP22 (Pin 29) on the Raspberry Pi Pico.
+  - GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
 
-Installation
-3D Print the Case: Use the provided STL files (if available) to 3D print the case that fits the components.
-Wiring: Connect the components to the Raspberry Pi Pico as per the wiring instructions above.
-Load the Code: Upload the provided Python code onto your Raspberry Pi Pico using a suitable IDE or method.
-Assembly: Assemble the components into the 3D printed case.
-Mount: Secure the counter onto your M3 Super 90 softair shotgun.
+# Installation
+
+1. 3D Print the Case: Use the provided STL files (if available) to 3D print the case that fits the components.
+2. Wiring: Connect the components to the Raspberry Pi Pico as per the wiring instructions above.
+3. Load the Code: Upload the provided Python code onto your Raspberry Pi Pico using a suitable IDE or method.
+4. Assembly: Assemble the components into the 3D printed case.
+5. Mount: Secure the counter onto your M3 Super 90 softair shotgun.
+
 Usage
 Power On: Power the Raspberry Pi Pico via a USB connection.
 Shot Tracking: The OLED display will show the number of shots fired and the current shell count.
