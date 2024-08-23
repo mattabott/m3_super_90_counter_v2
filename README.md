@@ -51,7 +51,7 @@ Below are the detailed wiring connections between the components and the Raspber
 
 # Installation
 
-1. 3D Print the Case: Use the provided STL files from here:
+1. 3D Print the Case: Use the provided STL files from [here](https://www.thingiverse.com/thing:6741174)
 2. Wiring: Connect the components to the Raspberry Pi Pico as per the wiring instructions above.
 3. Load the Code: Upload the provided Python code onto your Raspberry Pi Pico using Thonny (raccomended).
 4. Assembly: Assemble the components into the 3D printed case.
