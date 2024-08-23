@@ -46,8 +46,8 @@ Below are the detailed wiring connections between the components and the Raspber
 
 - Battery Pack:
 
- - Signal Pin: connect to 3V Gpio (Pin 40).
- - GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
+  - Signal Pin: connect to 3V Gpio (Pin 40).
+  - GND: Connect to a ground (GND) pin on the Raspberry Pi Pico.
 
 # Installation
 
