@@ -1,15 +1,16 @@
 # m3_super_90_counter_v2
 M3 super 90 Airsoft shotgun counter
+
 ![](https://github.com/mattabott/m3_super_90_counter_v2/blob/main/img/VideoEditor_20240823_103058.gif)
 
 This project is a custom counter designed for the M3 Super 90 softair shotgun by Tokyo Marui. The counter tracks the number of shots fired and the number of shells used. The project is built using a 3D-printed housing, a Raspberry Pi Pico, an OLED display, a button, and an endstop switch.
 
 # Features
--Shot Counter: Counts the number of shots fired from the M3 Super 90.
--Shell Counter: Tracks the number of shells used.
--OLED Display: Shows the current count of shots and shells.
--Reset Button: Allows resetting the counter when a new shell is loaded.
--Compact Design: The counter is housed in a custom 3D-printed case designed to be mounted on the shotgun.
+- Shot Counter: Counts the number of shots fired from the M3 Super 90.
+- Shell Counter: Tracks the number of shells used.
+- OLED Display: Shows the current count of shots and shells.
+- Reset Button: Allows resetting the counter when a new shell is loaded.
+- Compact Design: The counter is housed in a custom 3D-printed case designed to be mounted on the shotgun.
 
 # Components
 -Raspberry Pi Pico: The microcontroller that runs the code and handles the input/output.
